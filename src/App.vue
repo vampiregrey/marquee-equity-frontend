@@ -17,14 +17,17 @@
         </ul>
       </div>
     </nav>
+    <CompanySearchBar/>
   </div>
+
 </template>
 
 <script>
-
+import CompanySearchBar from "./components/CompanySearchBar";
 export default {
   name: 'App',
   components: {
+    CompanySearchBar
   }
 }
 </script>
