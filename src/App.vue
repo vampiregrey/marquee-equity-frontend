@@ -9,26 +9,22 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Search <span class="sr-only">(current)</span></a>
+            <router-link class="nav-link" to="/">Search</router-link>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">All Companies</a>
+            <router-link class="nav-link" to="/all">All Companies</router-link>
           </li>
         </ul>
       </div>
     </nav>
-    <CompanySearchBar/>
+    <router-view></router-view>
   </div>
 
 </template>
 
 <script>
-import CompanySearchBar from "./components/CompanySearchBar";
 export default {
   name: 'App',
-  components: {
-    CompanySearchBar
-  }
 }
 </script>
 

@@ -19,6 +19,13 @@
                <div id="listCompany" v-html="companyDataBox"></div>
             </div>
         </div>
+        <div class="row py-3">
+            <div class="col-md-6 offset-md-3 text-center">
+                <router-link class="nav-link" to="/all">
+                    <button class="btn btn-primary">Show All Companies</button>
+                </router-link>
+            </div>
+        </div>
     </div>
 </template>
 
