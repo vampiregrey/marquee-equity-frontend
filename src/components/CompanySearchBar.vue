@@ -131,6 +131,9 @@
 
                     this.companyDataBox = '';
                     this.companyName ='';
+
+                    this.$router.push('/all');
+
                 }).catch(error => {
                     this.postingData = false;
                     console.log(error)

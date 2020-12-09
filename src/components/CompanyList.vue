@@ -8,7 +8,7 @@
         <div class="row py-3">
             <div class="col-md-6 offset-md-3">
                 <div id="listCompany" v-for="company in companies" :key="company._id">
-                    <div class="show">{{company.name}} - {{company.cin}}</div>
+                    <div class="py-2">{{company.name}} - {{company.cin}}</div>
                 </div>
             </div>
         </div>
